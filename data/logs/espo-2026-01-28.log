@@ -1,0 +1,2 @@
+[2026-01-28 17:17:58] WARNING: (404) Controller 'View' does not exist. :: GET /view/69791115cae760b28 :: /var/www/html/application/Espo/Core/Api/ControllerActionProcessor.php(189)
+[2026-01-28 17:19:09] WARNING: (404) Controller 'OpenAPI' does not exist. :: GET /OpenAPI :: /var/www/html/application/Espo/Core/Api/ControllerActionProcessor.php(189)
