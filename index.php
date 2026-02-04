@@ -119,59 +119,45 @@ EOL;
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo HTML Básico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        main {
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página con Navegación</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+       }
+       nav {
+           background-color: #333;
+           overflow: hidden;
+       }
+       nav a {
+           float: left;
+           display: block;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+       nav a:hover {
+           background-color: #ddd;
+           color: black;
+       }
+       main {
+           padding: 20px;
+       }
+   </style>
 </head>
 <body>
-
-    <header>
-        <h1>Mi Primera Página HTML</h1>
-    </header>
-
-    <main>
-        <h2>Bienvenido</h2>
-        <p>Este es un ejemplo básico de una página web usando <strong>HTML</strong> y un poco de <em>CSS</em> para estilos.</p>
-
-        <h3>Imagen de ejemplo</h3>
-        <img src="https://via.placeholder.com/600x300" alt="Imagen de ejemplo">
-
-        <h3>Enlace</h3>
-        <p>Visita <a href="https://www.example.com" target="_blank">este sitio web</a> para más información.</p>
-    </main>
-
-    <footer>
-        &copy; 2026 Mi Página Web
-    </footer>
-
+   <nav>
+       <a href="#inicio">Inicio</a>
+       <a href="#sobre">Sobre Nosotros</a>
+       <a href="#contacto">Contacto</a>
+   </nav>
+   <main>
+       <h1>Bienvenidos</h1>
+       <p>Explora nuestra página para conocer más sobre nosotros.</p>
+   </main>
 </body>
 </html>
