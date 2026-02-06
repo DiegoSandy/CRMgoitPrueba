@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(entity\\isNew(), assignedUserId=1000);\n\nifThen(entity\\isAttributeChanged(billingAddressPostalCode), billingAddressPostalCode=null)"
+}
