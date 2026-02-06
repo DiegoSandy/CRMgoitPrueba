@@ -32067,6 +32067,9 @@ return [
       'beforeSaveCustomScript' => 'ifThen(entity\\isNew(), assignedUserId=1000);
 
 ifThen(entity\\isAttributeChanged(billingAddressPostalCode), billingAddressPostalCode=null)'
+    ],
+    'Contact' => [
+      'beforeSaveCustomScript' => 'ifThen(entity\\isNew(), description="Nuevo usuario que necesitaba description")'
     ]
   ]
 ];

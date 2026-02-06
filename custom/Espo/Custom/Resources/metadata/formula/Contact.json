@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(entity\\isNew(), description=\"Nuevo usuario que necesitaba description\")"
+}
