@@ -1,6 +1,6 @@
 <?php
 return [
-  'useCache' => true,
+  'useCache' => false,
   'jobMaxPortion' => 15,
   'jobRunInParallel' => true,
   'jobPoolConcurrencyNumber' => 8,
@@ -326,9 +326,17 @@ return [
     0 => 'youtube.com',
     1 => 'google.com'
   ],
-  'cacheTimestamp' => 1770404687,
-  'microtime' => 1770404687.704112,
+  'cacheTimestamp' => 1770406101,
+  'microtime' => 1770406101.067475,
   'siteUrl' => 'http://localhost:8080',
   'fullTextSearchMinLength' => 4,
-  'appTimestamp' => 1769541907
+  'appTimestamp' => 1769541907,
+  'maintenanceMode' => false,
+  'cronDisabled' => false,
+  'fiscalYearShift' => 0,
+  'addressCityList' => [],
+  'addressStateList' => [],
+  'emailAddressIsOptedOutByDefault' => false,
+  'workingTimeCalendarName' => NULL,
+  'workingTimeCalendarId' => NULL
 ];
