@@ -1,6 +1,6 @@
 <?php
 return [
-  'useCache' => true,
+  'useCache' => false,
   'jobMaxPortion' => 15,
   'jobRunInParallel' => true,
   'jobPoolConcurrencyNumber' => 8,
